@@ -25,7 +25,7 @@ public class SIAKAD21 {
             for(int i=0; i < 4; i++) {
                 totalPerMatkul += nilai[i][j];
             }
-            System.out.println("Mata Kuliah "+(j+1)+": "+totalPerMatkul);
+            System.out.println("Mata Kuliah "+(j+1)+": "+totalPerMatkul/4);
         }
     }
 }
